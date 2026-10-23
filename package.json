@@ -1,0 +1,14 @@
+{
+  "name": "composite-sim",
+  "version": "0.1.0",
+  "description": "One question, one instrument: compose prediction-market conditions, read them as English, compile them to a content-addressed spec, and execute them against a day of feeds.",
+  "type": "module",
+  "main": "src/composite.js",
+  "exports": { ".": "./src/composite.js" },
+  "bin": { "composite-sim-demo": "bin/demo.js" },
+  "scripts": { "demo": "node bin/demo.js", "test": "node --test" },
+  "keywords": ["fermah", "prediction-markets", "composite", "conditions", "resolution", "kernel"],
+  "author": "ZERTH MAXX (@0maxxdev)",
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
